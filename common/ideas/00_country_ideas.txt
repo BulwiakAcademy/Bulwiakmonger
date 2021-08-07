@@ -9089,7 +9089,7 @@ YUA_ideas = {
 	}
 	yua_keshik_and_weijun = {
 		shock_damage = 0.15
-		cavalry_fire = 1
+		discipline = 0.05
 	}
 	yua_a_thousand_miles_as_if_at_home = {
 		movement_speed = 0.2
