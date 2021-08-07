@@ -29,9 +29,9 @@ change_estate_land_share = {
 	leader = {
 		name = "Erdeni Batur"
 		type = general
-		fire = 3
+		fire = 2
 		shock = 2
-		manuever = 5
+		manuever = 4
 		siege = 0
 	}
 	add_ruler_personality = conqueror_personality
