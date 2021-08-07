@@ -103,6 +103,7 @@ mjl_mongolia_movespeed_boost = {
 
 mjl_privateer_efficiency_debuff = {
 	privateer_efficiency = -0.4
+	global_tariffs = -0.25
 }
 
 mjl_absolutism_age_max_abso = {
