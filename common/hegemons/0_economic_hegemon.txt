@@ -9,7 +9,7 @@ economic_hegemon = {
 	base = {
 		war_exhaustion = -0.1
 		global_spy_defence = 0.25
-		amount_of_banners = 0.4
+		amount_of_banners = 0.2
 	}
 	
 	# At max 100% tickup.
