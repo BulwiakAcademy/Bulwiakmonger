@@ -64,7 +64,7 @@ add_accepted_culture = slovene
 		birth_date = 1415.9.21
 		adm = 2
 		dip = 5
-		mil = 1
+		mil = 2
 	}
 	
 	clear_scripted_personalities = yes
