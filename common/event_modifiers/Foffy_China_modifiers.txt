@@ -614,6 +614,7 @@ h_populate_altai_mountains_mod = {
 mjl_oirat_buffs = {
 	global_tax_income = 120
 	global_manpower = 20
+	diplomatic_upkeep = 8
 }
 
 mjl_herd_bonus_prod = {
