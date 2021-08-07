@@ -15,10 +15,6 @@ native_hostileness = 6
 
 discovered_by = north_american
 
-1600.1.1 = {
-	controller = CCA
-	add_core = CCA
-} #Yuchi found in Tennessee by this point. 
 1785.11.2 = {
 	owner = USA
 	controller = USA

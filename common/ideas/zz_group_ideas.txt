@@ -2842,7 +2842,7 @@ ne_native_ideas = {
 		NOT = {
 			OR = {
 				tag = CHE
-				tag = TSC
+				#tag = TSC
 			}
 		}
 	}
@@ -2886,7 +2886,7 @@ se_native_ideas = {
 			culture_group = muskogean
 			primary_culture = caddo
 			tag = CHE
-			tag = TSC
+			#tag = TSC
 		}
 	}
 	free = yes
