@@ -11,9 +11,21 @@ usa_missions_main = {
 	usa_independence = {
 		icon = mission_assemble_an_army
 		required_missions = { }
+		provinces_to_highlight = {
+			colonial_region = colonial_eastern_america
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			has_discovered = ROOT
+		}
 		trigger = {
-			is_subject = no
-			is_at_war = no
+			#is_subject = no
+			#is_at_war = no
+			num_of_owned_provinces_with = {
+				value = 30
+				colonial_region = colonial_eastern_america
+				is_city = yes
+			}
 		}
 		effect = {
 			change_government_reform_progress = 100
