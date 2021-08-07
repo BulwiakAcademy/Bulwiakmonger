@@ -14382,19 +14382,19 @@ OIR_ideas = {
 	}
 	free = yes
 	
-	fearsome_warriors_of_tumu = {
-		leader_land_manuever = 1
-		cavalry_cost = -0.1
+	todo_besheg_script = {
+		technology_cost = -0.05
 	}
 	life_of_steppe_warrior = { #also used in Horde ideas, KHA_ideas
 		land_attrition = -0.20
 	}
+	fearsome_warriors_of_tumu = {
+		leader_land_manuever = 1
+		cavalry_cost = -0.1
+	}
 	the_four_oirats = {
 		horde_unity = 1
 		legitimacy = 1
-	}
-	todo_besheg_script = {
-		technology_cost = -0.05
 	}
 	OIR_great_khans_legacy = {
 		ae_impact = -0.15
