@@ -1713,7 +1713,7 @@ tumen_subject = {
 }
 
 tumen_subject_nation = {
-	core_creation = -0.2
+	#core_creation = -0.2
 	years_of_nationalism = -10
 	horde_unity = 3
 }
