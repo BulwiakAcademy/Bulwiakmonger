@@ -63,7 +63,7 @@ mongol_missions_1 = {
 		provinces_to_highlight = {
 			OR = {
 				province_id = 1816
-				province_id = 2136
+				province_id = 5512
 				region = north_china_region
 			}
 			NOT = {
@@ -73,7 +73,7 @@ mongol_missions_1 = {
 		}
 		trigger = {
 			owns_core_province = 1816
-			owns_core_province = 2136
+			owns_core_province = 5512
 			num_of_owned_provinces_with = {
 				region = north_china_region
 				is_core = ROOT
