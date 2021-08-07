@@ -2,7 +2,7 @@
 culture = bornean
 religion = hinduism
 capital = "Pontiniak"
-trade_goods = gold
+trade_goods = spices
 hre = no
 base_tax = 5
 base_production = 5
