@@ -140,7 +140,7 @@ citystate_ideas = { #Chinese City States
 
 CSH_ideas = {
 	start = {
-		shock_damage_received = -0.1
+		shock_damage_received = -0.15
 		land_morale = 0.1
 	}
 	
