@@ -434,12 +434,12 @@ vassal = {
 }
 
 #Hadoti (Bundi & Kota)
-vassal = {
-	first = MER
-	second = HAD
-	start_date = 1444.1.1
-	end_date = 1456.1.1
-}
+#vassal = {
+#	first = MER
+#	second = HAD
+#	start_date = 1444.1.1
+#	end_date = 1456.1.1
+#}
 
 vassal = {
 	first = MER
