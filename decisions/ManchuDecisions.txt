@@ -232,10 +232,16 @@ country_decisions = {
 			}
 			if = {
 				limit = {
+					government = monarchy
+				}
+				add_government_reform = h_reform_sinicized_horde
+			}
+			if = {
+				limit = {
 					has_reform = steppe_horde
 				}
 				change_government = monarchy
-				#set_legacy_government = despotic_monarchy
+				add_government_reform = h_reform_sinicized_horde
 			}
 			if = {
 				limit = {
@@ -252,7 +258,6 @@ country_decisions = {
 				add_harmonized_religion = tengri_pagan_reformed
 				country_event = { id = confucian_events.1 }
 			}
-			add_government_reform = h_reform_sinicized_horde
 			add_prestige = 10
 			set_country_flag = manchu_dynasty_formed
 			if = {
