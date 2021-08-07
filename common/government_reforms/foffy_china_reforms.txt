@@ -299,16 +299,12 @@ h_reform_sinicized_horde = {
 
 mjl_altaic_herdsmen = {
 	potential = {
-		OR = {
-			is_nomad = yes
-			culture_group = altaic
-		}
+		is_nomad = yes
+		culture_group = altaic
 	}
 	trigger = {
-		OR = {
-			is_nomad = yes
-			culture_group = altaic
-		}
+		is_nomad = yes
+		culture_group = altaic
 		any_owned_province = {
 			OR = {
 				trade_goods = livestock
