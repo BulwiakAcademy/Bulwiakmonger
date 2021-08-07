@@ -1,4 +1,9 @@
 #########################
+#Colonial Policies      #
+#########################
+
+
+#########################
 #Tier 1 Diplo Policies  #
 #########################
 
@@ -225,7 +230,7 @@ formalized_measures = { #+10% Tax
 	}
 }
 
-colonial_administration_act = { #+1Colonist +10 Colony Growth
+colonial_administration_act = { #t1 +1Colonist +10 Colony Growth
 	monarch_power = DIP
 
 	potential = {
@@ -293,12 +298,8 @@ colonial_administration_act = { #+1Colonist +10 Colony Growth
 	ai_will_do = {
 		factor = 1
 		modifier = {
-			factor = 0
-			NOT = { num_of_colonists = 1 }
-		}
-		modifier = {
-			factor = 0.1
-			NOT = { num_of_colonies = 1 }
+			factor = 5
+			is_colonial_nation = yes
 		}
 	}
 }
@@ -595,7 +596,7 @@ formalized_measures2 = { #+15% Tax
 	}
 }
 
-colonial_administration_act2 = { #+1Colonist +15 Colony Growth +25% Range
+colonial_administration_act2 = { #t2 +1Colonist +15 Colony Growth +25% Range
 	monarch_power = DIP
 
 	potential = {
@@ -689,12 +690,8 @@ colonial_administration_act2 = { #+1Colonist +15 Colony Growth +25% Range
 	ai_will_do = {
 		factor = 1
 		modifier = {
-			factor = 0
-			NOT = { num_of_colonists = 1 }
-		}
-		modifier = {
-			factor = 0.1
-			NOT = { num_of_colonies = 1 }
+			factor = 5
+			is_colonial_nation = yes
 		}
 	}
 }
@@ -866,83 +863,6 @@ the_education_act = { #-10% Advisor Cost
 	}
 }
 
-colonial_administration_act3 = { #+1Colonist +20 Colony Growth +50% Range
-	monarch_power = DIP
-
-	potential = {
-		calc_true_if = {
-			full_idea_group = aristocracy_ideas
-			full_idea_group = plutocracy_ideas
-			full_idea_group = horde_gov_ideas
-			full_idea_group = theocracy_gov_ideas
-			full_idea_group = indigenous_ideas
-			full_idea_group = innovativeness_ideas
-			full_idea_group = religious_ideas
-			full_idea_group = spy_ideas
-			full_idea_group = diplomatic_ideas
-			full_idea_group = offensive_ideas
-			full_idea_group = defensive_ideas
-			full_idea_group = trade_ideas
-			full_idea_group = economic_ideas
-			full_idea_group = exploration_ideas
-			full_idea_group = maritime_ideas
-			full_idea_group = quality_ideas
-			full_idea_group = quantity_ideas
-			full_idea_group = expansion_ideas
-			full_idea_group = administrative_ideas
-			full_idea_group = humanist_ideas
-			full_idea_group = influence_ideas
-			full_idea_group = naval_ideas
-			amount = 3
-		}
-	}
-	allow = {
-		calc_true_if = {
-			full_idea_group = aristocracy_ideas
-			full_idea_group = plutocracy_ideas
-			full_idea_group = horde_gov_ideas
-			full_idea_group = theocracy_gov_ideas
-			full_idea_group = indigenous_ideas
-			full_idea_group = innovativeness_ideas
-			full_idea_group = religious_ideas
-			full_idea_group = spy_ideas
-			full_idea_group = diplomatic_ideas
-			full_idea_group = offensive_ideas
-			full_idea_group = defensive_ideas
-			full_idea_group = trade_ideas
-			full_idea_group = economic_ideas
-			full_idea_group = exploration_ideas
-			full_idea_group = maritime_ideas
-			full_idea_group = quality_ideas
-			full_idea_group = quantity_ideas
-			full_idea_group = expansion_ideas
-			full_idea_group = administrative_ideas
-			full_idea_group = humanist_ideas
-			full_idea_group = influence_ideas
-			full_idea_group = naval_ideas
-			amount = 3
-		}
-		NOT = { has_active_policy = colonial_administration_act }
-		NOT = { has_active_policy = colonial_administration_act2 }
-	}
-	
-	colonists = 1
-	global_colonial_growth = 20
-	range = 0.50
-
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { num_of_colonists = 1 }
-		}
-		modifier = {
-			factor = 0.1
-			NOT = { num_of_colonies = 1 }
-		}
-	}
-}
-
 formalized_measures3 = { #+20% Tax
 	monarch_power = DIP
 
@@ -1051,6 +971,78 @@ formalized_measures3 = { #+20% Tax
 	}
 }
 
+colonial_administration_act3 = { #t3 +1Colonist +20 Colony Growth +50% Range
+	monarch_power = DIP
+
+	potential = {
+		calc_true_if = {
+			full_idea_group = aristocracy_ideas
+			full_idea_group = plutocracy_ideas
+			full_idea_group = horde_gov_ideas
+			full_idea_group = theocracy_gov_ideas
+			full_idea_group = indigenous_ideas
+			full_idea_group = innovativeness_ideas
+			full_idea_group = religious_ideas
+			full_idea_group = spy_ideas
+			full_idea_group = diplomatic_ideas
+			full_idea_group = offensive_ideas
+			full_idea_group = defensive_ideas
+			full_idea_group = trade_ideas
+			full_idea_group = economic_ideas
+			full_idea_group = exploration_ideas
+			full_idea_group = maritime_ideas
+			full_idea_group = quality_ideas
+			full_idea_group = quantity_ideas
+			full_idea_group = expansion_ideas
+			full_idea_group = administrative_ideas
+			full_idea_group = humanist_ideas
+			full_idea_group = influence_ideas
+			full_idea_group = naval_ideas
+			amount = 3
+		}
+	}
+	allow = {
+		calc_true_if = {
+			full_idea_group = aristocracy_ideas
+			full_idea_group = plutocracy_ideas
+			full_idea_group = horde_gov_ideas
+			full_idea_group = theocracy_gov_ideas
+			full_idea_group = indigenous_ideas
+			full_idea_group = innovativeness_ideas
+			full_idea_group = religious_ideas
+			full_idea_group = spy_ideas
+			full_idea_group = diplomatic_ideas
+			full_idea_group = offensive_ideas
+			full_idea_group = defensive_ideas
+			full_idea_group = trade_ideas
+			full_idea_group = economic_ideas
+			full_idea_group = exploration_ideas
+			full_idea_group = maritime_ideas
+			full_idea_group = quality_ideas
+			full_idea_group = quantity_ideas
+			full_idea_group = expansion_ideas
+			full_idea_group = administrative_ideas
+			full_idea_group = humanist_ideas
+			full_idea_group = influence_ideas
+			full_idea_group = naval_ideas
+			amount = 3
+		}
+		NOT = { has_active_policy = colonial_administration_act }
+		NOT = { has_active_policy = colonial_administration_act2 }
+	}
+	
+	colonists = 1
+	global_colonial_growth = 20
+	range = 0.50
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 5
+			is_colonial_nation = yes
+		}
+	}
+}
 
 #########################
 #Tier 4 Diplo Policies  #
