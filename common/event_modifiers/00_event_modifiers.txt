@@ -11519,7 +11519,8 @@ the_dying_of_the_light = {
 }
 
 an_eye_for_an_eye = {
-	mercenary_manpower = 0.5
+	#mercenary_manpower = 0.5
+	amount_of_banners = 0.25
 	global_manpower_modifier = -0.25
 }
 
