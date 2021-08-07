@@ -1,4 +1,4 @@
-version="2.1"
+version="2.2"
 tags={
 	"Balance"
 	"Events"
@@ -8,7 +8,7 @@ tags={
 	"Missions And Decisions"
 	"Map"
 }
-name="Aapmonger"
+name="Bulwiakmonger"
 picture="thumbnail.png"
 supported_version="1.30.*"
-remote_file_id="2220657902"
+remote_file_id="2568649272"
